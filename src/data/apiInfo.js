@@ -11,8 +11,8 @@ export const apiInfo = [
     mainnet: { version: "3.1.1" },
     testnet: { version: "3.1.1" },
     markdownEndpoints: `
-- [testnet](https://graphql-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
-- [mainnet](https://graphql-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
+- [testnet](https://explorer-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
+- [mainnet](https://explorer-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
 `,
     markdownExamples: `
 - bash:
@@ -34,8 +34,8 @@ curl -s \\
     mainnet: { version: "3.1.1" },
     testnet: { version: "3.1.1" },
     markdownEndpoints: `
-- [testnet](https://explorer-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
-- [mainnet](https://explorer-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
+- [testnet](https://submit-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
+- [mainnet](https://submit-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
 `,  
     markdownExamples: `
 - bash:
@@ -61,8 +61,8 @@ curl -X POST \\
     mainnet: { version: "3.1.0" },
     testnet: { version: "3.1.0" },
     markdownEndpoints: `
-- [testnet](https://explorer-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
-- [mainnet](https://explorer-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
+- [testnet](https://graphql-api.testnet.`+process.env.REACT_APP_API_DOMAIN+`)
+- [mainnet](https://graphql-api.mainnet.`+process.env.REACT_APP_API_DOMAIN+`)
 `,
     markdownExamples: `
 - bash:    
